@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  div.container
+    h1.header API Basejump: URL Shortener Microservice
+    div
+      b Example usage:
+      ul
+        li
+          code #{host}/new/https://www.google.com
+      b Example output:
+      ul
+        li
+          code { "original_url":"https://www.google.com", "short_url":"#{host}/S1wiKn1gW" }
