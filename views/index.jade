@@ -3,12 +3,9 @@ extends layout
 block content
   div.container
     h1.header API Basejump: URL Shortener Microservice
-    div
-      b Example usage:
-      ul
-        li
-          code #{host}/new/https://cenksoykan.com
-      b Example output:
-      ul
-        li
-          code { "original_url":"https://cenksoykan.com", "short_url":"#{host}/Skg3Q61g@" }
+    b Example usage:
+    pre
+      code #{host}/new/https://cenksoykan.com
+    b Example output:
+    pre
+      code { "original_url":"https://cenksoykan.com", "short_url":"#{host}/Skg3Q61g@" }
